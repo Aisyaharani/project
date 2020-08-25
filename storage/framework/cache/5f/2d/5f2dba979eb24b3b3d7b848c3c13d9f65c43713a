@@ -1,0 +1,199 @@
+1598336531a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:5076:"description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>October CMS - {{ this.page.title }}</title>
+    <meta name="description" content="{{ this.page.meta_description }}">
+    <meta name="title" content="{{ this.page.meta_title }}">
+    <meta name="author" content="OctoberCMS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="OctoberCMS">
+    <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+
+    <!-- <link rel="icon" href="img/fav-icon.png" type="image/x-icon" /> -->
+    <!-- <link href="{{ 'assets/css/vendor.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css'|theme }}" rel="stylesheet"> -->
+
+    <!-- Icon css link -->
+    <link href="{{'assets/css/font-awesome.min.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/css/icofont.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/vendors/linear-icon/style.css'|theme}}" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="{{'assets/css/bootstrap.min.css'|theme}}" rel="stylesheet">
+
+    <!-- Rev slider css -->
+    <link href="{{'assets/vendors/revolution/css/settings.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/vendors/revolution/css/layers.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/vendors/revolution/css/navigation.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/vendors/animate-css/animate.css'|theme}}" rel="stylesheet">
+
+    <!-- Extra plugin css -->
+    <link href="{{'assets/vendors/magnific-popup/magnific-popup.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/vendors/owl-carousel/assets/owl.carousel.min.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/vendors/swiper/css/swiper.min.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/vendors/flipster-slider/jquery.flipster.min.css'|theme}}" rel="stylesheet">
+
+    <link href="{{'assets/css/style.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/css/responsive.css'|theme}}" rel="stylesheet">
+    {% styles %}
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="layout-header">
+        {% partial 'site/header' %}
+    </header>
+
+    <!-- Content -->
+    <section id="layout-content">
+        {% page %}
+    </section>
+
+    <!-- Footer -->
+    <footer id="layout-footer">
+        {% partial 'site/footer' %}
+    </footer>
+
+    <!-- Scripts -->
+    <!-- <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
+        <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script> -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="{{ 'assets/js/jquery-2.2.4.js'|theme }}"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
+    <!-- Rev slider js -->
+    <script src="{{ 'assets/vendors/revolution/js/jquery.themepunch.tools.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/revolution/js/jquery.themepunch.revolution.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/revolution/js/extensions/revolution.extension.video.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/revolution/js/extensions/revolution.extension.navigation.min.js'|theme }}"></script>
+    <!-- Extra Plugin -->
+    <script src="{{ 'assets/vendors/parallax/jquery.parallax-scroll.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/magnific-popup/jquery.magnific-popup.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/owl-carousel/owl.carousel.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/counterup/waypoints.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/counterup/jquery.counterup.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/isotope/imagesloaded.pkgd.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/isotope/isotope.pkgd.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/flexslider/flex-slider.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/flexslider/mixitup.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/nice-selector/jquery.nice-select.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/swiper/js/swiper.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/flipster-slider/jquery.flipster.min.js'|theme }}"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="{{ 'assets/js/gmaps.min.js'|theme }}"></script>
+
+    <script src="{{ 'assets/js/theme.js'|theme }}"></script>
+    {% framework extras %}
+    {% scripts %}
+
+</body>
+
+</html>";s:5:"mtime";i:1598335924;s:6:"markup";s:5042:"<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>October CMS - {{ this.page.title }}</title>
+    <meta name="description" content="{{ this.page.meta_description }}">
+    <meta name="title" content="{{ this.page.meta_title }}">
+    <meta name="author" content="OctoberCMS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="OctoberCMS">
+    <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+
+    <!-- <link rel="icon" href="img/fav-icon.png" type="image/x-icon" /> -->
+    <!-- <link href="{{ 'assets/css/vendor.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css'|theme }}" rel="stylesheet"> -->
+
+    <!-- Icon css link -->
+    <link href="{{'assets/css/font-awesome.min.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/css/icofont.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/vendors/linear-icon/style.css'|theme}}" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="{{'assets/css/bootstrap.min.css'|theme}}" rel="stylesheet">
+
+    <!-- Rev slider css -->
+    <link href="{{'assets/vendors/revolution/css/settings.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/vendors/revolution/css/layers.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/vendors/revolution/css/navigation.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/vendors/animate-css/animate.css'|theme}}" rel="stylesheet">
+
+    <!-- Extra plugin css -->
+    <link href="{{'assets/vendors/magnific-popup/magnific-popup.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/vendors/owl-carousel/assets/owl.carousel.min.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/vendors/swiper/css/swiper.min.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/vendors/flipster-slider/jquery.flipster.min.css'|theme}}" rel="stylesheet">
+
+    <link href="{{'assets/css/style.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/css/responsive.css'|theme}}" rel="stylesheet">
+    {% styles %}
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="layout-header">
+        {% partial 'site/header' %}
+    </header>
+
+    <!-- Content -->
+    <section id="layout-content">
+        {% page %}
+    </section>
+
+    <!-- Footer -->
+    <footer id="layout-footer">
+        {% partial 'site/footer' %}
+    </footer>
+
+    <!-- Scripts -->
+    <!-- <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
+        <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script> -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="{{ 'assets/js/jquery-2.2.4.js'|theme }}"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
+    <!-- Rev slider js -->
+    <script src="{{ 'assets/vendors/revolution/js/jquery.themepunch.tools.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/revolution/js/jquery.themepunch.revolution.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/revolution/js/extensions/revolution.extension.video.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/revolution/js/extensions/revolution.extension.navigation.min.js'|theme }}"></script>
+    <!-- Extra Plugin -->
+    <script src="{{ 'assets/vendors/parallax/jquery.parallax-scroll.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/magnific-popup/jquery.magnific-popup.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/owl-carousel/owl.carousel.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/counterup/waypoints.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/counterup/jquery.counterup.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/isotope/imagesloaded.pkgd.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/isotope/isotope.pkgd.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/flexslider/flex-slider.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/flexslider/mixitup.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/nice-selector/jquery.nice-select.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/swiper/js/swiper.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/flipster-slider/jquery.flipster.min.js'|theme }}"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="{{ 'assets/js/gmaps.min.js'|theme }}"></script>
+
+    <script src="{{ 'assets/js/theme.js'|theme }}"></script>
+    {% framework extras %}
+    {% scripts %}
+
+</body>
+
+</html>";s:4:"code";N;s:11:"description";s:14:"Default layout";}}
